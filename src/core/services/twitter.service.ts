@@ -1,7 +1,5 @@
-import { Observable } from "rxjs";
-import { Injectable } from "@fluffy-spoon/inverse";
+import { Observable } from 'rxjs';
 
-@Injectable
 export default class TwitterService {
   getTweets(params: string) {
     return new Observable(observer => {
