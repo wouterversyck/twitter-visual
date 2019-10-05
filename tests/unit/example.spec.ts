@@ -1,8 +1,8 @@
 import { expect } from 'chai';
 import { shallowMount } from '@vue/test-utils';
-import HelloWorld from '@/components/TwitterComponent.vue';
+import HelloWorld from '@/components/StreamComponent.vue';
 
-describe('TwitterComponent.vue', () => {
+describe('StreamComponent.vue', () => {
   it('renders props.msg when passed', () => {
     const msg = 'new message';
     const wrapper = shallowMount(HelloWorld, {
